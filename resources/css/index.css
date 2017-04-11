@@ -1,201 +1,220 @@
     html {
-    background-color: black;
-    opacity: 0.9;
-}
-a {
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-}
-.header {
-    display: flex;
-    height: 69px;
-    width: 100%;
-    border-bottom: solid white 1px;
-    background-color: black;
-    justify-content: center;
-    position: fixed;
-    top: 0px;
-    left: 0px z-index: 5;
-}
+        background-color: black;
+        opacity: 0.9;
+    }
 
-.logo {
-    display: flex;
-    width: 65%;
-}
+    a {
+        font-family: Helvetica;
+        font-size: 22px;
+        color: seashell;
+    }
 
-.nav {
-    display: inline-flex;
-    align-items: center;
-    align-content: center;
-    justify-content: space-between;
-    width: 35%;
-}
+    .header {
+        display: flex;
+        height: 69px;
+        width: 100%;
+        border-bottom: solid white 1px;
+        background-color: black;
+        justify-content: center;
+        position: fixed;
+        top: 0px;
+        left: 0px z-index: 5;
+    }
 
-.menu {
-    display: flex;
-    font-family: Helvetica;
-    font-size: 22px;
-    color: seashell;
-    text-decoration: underline;
-}
+    .logo {
+        display: flex;
+        width: 65%;
+    }
 
-.main {
-    display: flex;
-    width: 1200px;
-    height: 700px;
-    margin-left: 10%;
-    margin-right: 10%;
-    align-content: center;
-    justify-content: center;
-}
+    .nav {
+        display: inline-flex;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        width: 35%;
+    }
 
-.mission {
-    display: flex;
-    width: 1200px;
-    height: 700px;
-    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
+    .menu {
+        display: flex;
+        font-family: Helvetica;
+        font-size: 22px;
+        color: seashell;
+        text-decoration: underline;
+    }
 
-.mission-text {
-    width: 1200px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    justify-content: center;
-    background-color: black;
-}
-h2 {
-    display: flex;
-    font-family: Helvetica;
-    font-size: 32px;
-    color: seashell;
-    align-content: center;
-    justify-content: center;
-}
-h3 {
-    display: flex;
-    font-family: Helvetica;
-    color: seashell;
-    align-content: center;
-    justify-content: center;
-}
+    .container {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
 
-h5 {
-    display: flex;
-    font-family: Helvetica;
-    font-size: 22px;
-    color: seashell;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-p {
-  display: flex;
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-}
+    .mission {
+        display: flex;
+        width: 1200px;
+        height: 700px;
+        background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
 
-.row1 {
-    margin-left: 16.5%;
-    margin-right: 16.5%;
-    display: flex;
-    width: 1000px;
-    height: 300px;
-    align-content: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+    .mission-text {
+        width: 1200px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: center;
+        background-color: black;
+    }
 
-.row2 {
-    margin-left: 26%;
-    margin-right: 20.5%;
-    display: flex;
-    width: 700px;
-    height: 300px;
-    align-content: center;
+    h2 {
+        display: flex;
+        font-family: Helvetica;
+        font-size: 32px;
+        color: seashell;
+        align-content: center;
+        justify-content: center;
+    }
+
+    h3 {
+        display: flex;
+        font-family: Helvetica;
+        color: seashell;
+        align-content: center;
+        justify-content: center;
+    }
+
+    h5 {
+        display: flex;
+        font-family: Helvetica;
+        font-size: 22px;
+        color: seashell;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    p {
+        display: flex;
+        font-family: Helvetica;
+        font-size: 22px;
+        color: seashell;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .tea-title {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content:center;
+
+    }
+    .tea-container {
+      display: flex;
+      width: 1000px;
+      flex-direction: column;
+      align-content: center;
+      align-items:center;
+      justify-content:center;
+
+
+    }
+
+    .row1 {
+        display: flex;
+        width:1000px;
+        align-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .row2 {
+        display: flex;
+        width: 700px;
+        justify-content: space-around;
+
+    }
+
+    .items {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        flex-direction: column;
+        align-content: center;
+        font-family: Helvetica;
+        font-size: 22px;
+        color: seashell;
+    }
+
+    .locations {
+        display: flex;
+        width: 1200px;
+        height: 600px;
+        background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+    .locations-title {
+        display: block;
+        width: 995px;
+        Justify-content: center;
+        flex-direction: column;
+
+    }
+    .locations-container {
+      display: flex;
+      width: 880px
+      align-content:center;
     justify-content: space-around;
-}
 
-.items {
-    display: flex;
-    width: 300px;
-    height: 300px;
-    flex-direction: column;
-    align-content: center;
-    font-family: Helvetica;
-    font-size: 22px;
-    color: seashell;
-}
+    }
 
-.locations {
-    display: flex;
-    width: 1200px;
-    height: 600px;
-    margin-left: 10%;
-    margin-right: 10%;
-    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
-    align-items: center;
-    justify-content: space-around;
-    border: solid white 1px;
-}
-.locations-title {
-  display: inline-flex;
-  width: 1200px;
-  height: 200px;
-}
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        font-family: Helvetica;
+        font-size: 22px;
+        color: seashell;
+        opacity: 1;
+        background-color: black;
 
-.box1 {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 300px;
-    margin-left: 75px;
-    font-family: Helvetica;
-    font-size: 22px;
-    color: seashell;
-    opacity: 1;
-    justify-content: center;
-    background-color: black;
+    }
 
-}
-.box2 {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 300px;
-    font-family: Helvetica;
-    font-size: 22px;
-    color: seashell;
-    opacity: 1;
-    justify-content: center;
-    background-color: black;
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        font-family: Helvetica;
+        font-size: 22px;
+        color: seashell;
+        opacity: 1;
+        background-color: black;
+    }
 
-}
-.box3 {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 300px;
-    margin-right: 75px;
-    font-family: Helvetica;
-    font-size: 22px;
-    color: seashell;
-    opacity: 1;
-    justify-content: center;
-    background-color: black;
-}
-.copy {
-  font-family: Helvetica;
-  font-size: 18px;
-  font-weight: bold;
-  color: seashell;
-}
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        font-family: Helvetica;
+        font-size: 22px;
+        color: seashell;
+        opacity: 1;
+  background-color: black;
+
+    }
+
+    .copy {
+        font-family: Helvetica;
+        font-size: 18px;
+        font-weight: bold;
+        color: seashell;
+    }
